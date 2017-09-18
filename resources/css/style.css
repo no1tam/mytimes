@@ -1,3 +1,69 @@
+body {
+	font-family: verdana;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+h1 {
+	color: AquaMarine;
+	font-size: 14px;
+	padding: 25px 3px;
+	margin: 5px 8px;
+    border: 1px;
+}
+
+.container {
+	display: flex;
+} 
+
+.nav {
+	width: 80%;
+}
+
+nav ul {
+	display:flex;
+	list-style: none;
+	padding-left: 0;
+	padding-top: 7px;
+	justify-content: flex-end
+}
+
+nav a {
+	color: black;
+	display: block;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Below is the original css */
+
+
+/*
 body{
 	font-family: verdana;
 }
@@ -6,9 +72,6 @@ body{
 	margin-bottom: 10px;
 }
 
-.name {
-	flex-grow: 1;
-}
 
 h1 {
 	color: MediumAquamarine;
@@ -27,28 +90,30 @@ h1 {
 	padding-bottom: 10px;
 	position: fixed;
 	width: 100%;
+	align-items: baseline; 
 
 }
 
 nav li {
 	font-size: 14px;
 	font-weight: bold;
-	/*float: right;*/
 	list-style: none; 
 	padding: 1 1 1 1; 
 	margin-top: 8px;
 	margin-right: 20px;
 	margin-left: 5px;
-	display: inline-flex;
 }
 
 .nav {
 	width: 100%;
-	justify-content: flex-end;
+	display: flex;
 	flex-grow: 3;
+	align-items: flex-end;
+	display: inline-flex;
 	/*margin-left: 1000px;*/
+/*
 }
 
 a:link {
 	color: black;
-}
+} */
