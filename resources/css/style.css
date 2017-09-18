@@ -7,9 +7,9 @@ body {
 h1 {
 	color: MediumAquamarine;
 	font-size: 14px;
-	padding: 20px 3px;
-	margin: 5px 8px;
-    border: 1px;
+	padding: 18px 30px 18px 8px;
+	margin-right: 0px;
+    width: 150px;
 }
 
 .container {
@@ -18,22 +18,34 @@ h1 {
 	padding-bottom: 5px;
 } 
 
+.top {
+	display: block;
+	border: 1px solid red;
+}
+
 .nav {
-	width: 80%;
+	display: flex;
+	width: 75%;  
+	padding-left: 0;
+	justify-content: flex-end;
+}
+
+img {
+	padding-left: 20px;
+	margin-top: 5px;
 }
 
 nav ul {
 	display:flex;
 	list-style: none;
-	padding-left: 0;
-	padding-top: 12px;
-	justify-content: flex-end
+	padding-top: 15px;
 }
 
+
 nav a {
+	display: flex;
 	color: black;
-	/*display: block; */
-	padding: 10px;
+	padding-right: 30px;
 }
 
 
