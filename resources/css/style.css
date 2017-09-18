@@ -7,13 +7,15 @@ body {
 h1 {
 	color: AquaMarine;
 	font-size: 14px;
-	padding: 25px 3px;
+	padding: 20px 3px;
 	margin: 5px 8px;
     border: 1px;
 }
 
 .container {
 	display: flex;
+	border-bottom: 1px solid black;
+	padding-bottom: 5px;
 } 
 
 .nav {
@@ -24,13 +26,13 @@ nav ul {
 	display:flex;
 	list-style: none;
 	padding-left: 0;
-	padding-top: 7px;
+	padding-top: 12px;
 	justify-content: flex-end
 }
 
 nav a {
 	color: black;
-	display: block;
+	/*display: block; */
 	padding: 10px;
 }
 
