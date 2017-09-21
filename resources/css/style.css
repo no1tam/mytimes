@@ -4,7 +4,7 @@ body {
 	font-weight: bold;
 }
 
-h1 {
+header {
 	color: MediumAquamarine;
 	font-size: 14px;
 	padding: 18px 30px 18px 8px;
@@ -48,8 +48,12 @@ nav a {
 	padding-right: 30px;
 }
 
+/* Below is the article layout */
 
-
+p {
+	width: 630px;
+	border: 1px solid black;
+}
 
 
 
