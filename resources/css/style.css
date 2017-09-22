@@ -7,7 +7,7 @@ body {
 header {
 	color: MediumAquamarine;
 	font-size: 14px;
-	padding: 18px 30px 18px 8px;
+	padding: 30px 30px 18px 8px;
 	margin-right: 0px;
     width: 150px;
 }
@@ -15,7 +15,7 @@ header {
 .container {
 	display: flex;
 	border-bottom: 1px solid black;
-	padding-bottom: 5px;
+	padding-bottom: 8px;
 } 
 
 .top {
@@ -50,14 +50,56 @@ nav a {
 
 /* Below is the article layout */
 
-p {
+h1 {
 	width: 630px;
 	border: 1px solid black;
 }
 
+p {
+	
+	
 
+}
 
+img {
+	border: 1px solid black;
+}
 
+.flex {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 630px;
+}
+
+.main  {
+	width: 630px;
+	border: 1px solid black;
+}
+
+.second {
+	width: 630px;
+	border: 1px solid black;
+}
+
+.third {
+	width: 630px;
+	border: 1px solid black;
+}
+
+.fourth {
+	width: 630px;
+	border: 1px solid black;
+}
+
+.fifth {
+	width: 630px;
+	border: 1px solid black;
+}
+
+.sixth {
+	width: 630px;
+	border: 1px solid black;
+}
 
 
 
