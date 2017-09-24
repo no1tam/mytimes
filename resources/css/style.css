@@ -4,6 +4,8 @@ body {
 	font-weight: bold;
 }
 
+/* Navigation */
+
 header {
 	color: MediumAquamarine;
 	font-size: 14px;
@@ -12,7 +14,7 @@ header {
     width: 150px;
 }
 
-.container {
+.nav-con {
 	display: flex;
 	border-bottom: 1px solid black;
 	padding-bottom: 8px;
@@ -36,7 +38,7 @@ img {
 }
 
 nav ul {
-	display:flex;
+	display: flex;
 	list-style: none;
 	padding-top: 15px;
 }
@@ -48,58 +50,72 @@ nav a {
 	padding-right: 30px;
 }
 
+
 /* Below is the article layout */
 
-h1 {
+/*Mainflexbox*/
+.wrapper {
+	display: flex;
+	justify-content: space-around;
+}
+
+/* ColumnOne */
+.flex-container {
+	display: flex;
+	border: 1px solid red;
 	width: 630px;
+	flex-wrap: wrap;
+}
+
+/* Column Two */
+.flex-container-2 {
+	display: flex;
+	border: 1px solid blue;
+	width: 300px;
+	flex-wrap: wrap;
+}
+
+/* Column Three */
+.flex-container-3 {
+	display: flex;
+	border: 1px solid orange;
+	width: 240px;
+	flex-wrap: wrap;
+}
+
+.headline p {
 	border: 1px solid black;
 }
 
-p {
-	
-	
+.second-box {
+	border: 1px solid orange
+}
 
+.third-box {
+	border: 1px solid MediumAquamarine;
+}
+
+.fourth-box {
+	border: 1px solid pink;
+}
+
+.fifth-box {
+	border: 1px solid blue;
+}
+
+.bite {
+	border: 1px solid yellow;
+}
+
+.headline h1 {
+	width: 630px;
+	border: 1px solid black;
 }
 
 img {
 	border: 1px solid black;
 }
 
-.flex {
-	display: flex;
-	flex-direction: column;
-	flex-basis: 630px;
-}
-
-.main  {
-	width: 630px;
-	border: 1px solid black;
-}
-
-.second {
-	width: 630px;
-	border: 1px solid black;
-}
-
-.third {
-	width: 630px;
-	border: 1px solid black;
-}
-
-.fourth {
-	width: 630px;
-	border: 1px solid black;
-}
-
-.fifth {
-	width: 630px;
-	border: 1px solid black;
-}
-
-.sixth {
-	width: 630px;
-	border: 1px solid black;
-}
 
 
 
